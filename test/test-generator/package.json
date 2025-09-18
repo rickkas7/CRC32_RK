@@ -1,0 +1,17 @@
+{
+  "name": "test-generator",
+  "description": "Tool to generate CRC32 test program data",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "rickkas7@rickkas7.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "crc": "^4.3.2"
+  }
+}
